@@ -11,4 +11,7 @@ public:
 
     void setID();
     void printAII();
+
+    static void setNim(int pNim);
+    static int getNim();
 }
