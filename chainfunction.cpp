@@ -15,4 +15,6 @@ public:
     {
         return this->judul;
     }
-}
+
+} bukunya;
+
