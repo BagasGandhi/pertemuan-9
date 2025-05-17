@@ -14,4 +14,6 @@ public:
 
     static void setNim(int pNim);
     static int getNim();
-}
+
+    mahasiswa(string pnama):nama(pnama){setID();}
+};
