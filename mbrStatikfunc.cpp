@@ -29,3 +29,20 @@ void mahasiswa::printAII(){
     cout << "Nama = " << nama << endl;
     cout << endl;
 }
+
+int main(){
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("Budi Jatmiko");
+    mahasiswa::setNim(9); 
+    mahasiswa mhs3("Andi Janu");
+    mahasiswa mhs4("Joko Wahono");
+
+    mhs1.printAII();
+    mhs2.printAII();
+    mhs3.printAII();
+    mhs4.printAII();
+
+    cout<<"akses dari luat object = "<<mahasiswa::getNim()<<endl;
+
+    return 0;
+}
